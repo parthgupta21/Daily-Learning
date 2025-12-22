@@ -1,7 +1,3 @@
-Below is a **thorough, book-style treatment of Asynchronous JavaScript with a focus on callbacks**, written to build strong conceptual foundations and production-level understanding. Nothing is assumed. Trivial terms are explicitly defined. The explanation progresses from first principles to real-world implications.
-
----
-
 ## 1. Why Asynchronous JavaScript Exists
 
 ### 1.1 JavaScript Execution Model
