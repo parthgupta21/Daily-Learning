@@ -9,6 +9,7 @@ Closures persist the **variable bindings**, not just the values. The captured va
 ---
 
 ## Lexical Scope and Closure Relationship
+**Lexical scope** is the rule by which the JavaScript language determines where a variable is accessible, based entirely on the physical structure of the source code at the time it is written, not on how or from where the code is executed at runtime.
 
 JavaScript uses **lexical (static) scope**. A function’s accessible variables are determined by the **physical placement in the source code**, not by where it is invoked. When the JavaScript engine creates a function, it stores a reference to the **Lexical Environment** active at the time of definition. This environment becomes part of the function’s **[[Environment]] internal slot**, forming the closure.
 
