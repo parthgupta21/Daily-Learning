@@ -117,13 +117,14 @@ public:
         if (nums.size() == 0) return 0;
 
         int i = 0;
-        for (int j = 1; j < nums.size(); j++) {
-            if (nums[j] != nums[i]) {
-                i++;
+        int j = 0;
+        while(j < nums.size()){
+            if (i < 1 || nums[i - 1] != nums[j]) {
                 nums[i] = nums[j];
+                i++;
             }
         }
-        return i + 1;
+        return i;
     }
 };
 ```
