@@ -1,5 +1,3 @@
-
-
 # LeetCode 189. Rotate Array
 
 ## Problem Summary
